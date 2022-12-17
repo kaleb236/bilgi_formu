@@ -371,7 +371,7 @@ background-color: #7DCE13;
 }</string>
        </property>
        <property name="text">
-        <string>Kayı Ol</string>
+        <string>Kayıt Ol</string>
        </property>
       </widget>
       <widget class="QLabel" name="label_3">
@@ -896,7 +896,7 @@ color: #d3e1f7;</string>
 color: rgb(255, 255, 255);</string>
        </property>
        <property name="text">
-        <string>Kaleb236</string>
+        <string/>
        </property>
       </widget>
       <widget class="QLabel" name="bilgi_dogum_gunu">
@@ -913,7 +913,7 @@ color: rgb(255, 255, 255);</string>
 color: rgb(255, 255, 255);</string>
        </property>
        <property name="text">
-        <string>23.06.2000</string>
+        <string/>
        </property>
       </widget>
       <widget class="QLabel" name="bilgi_cinsiyet">
@@ -930,7 +930,7 @@ color: rgb(255, 255, 255);</string>
 color: rgb(255, 255, 255);</string>
        </property>
        <property name="text">
-        <string>Erkek</string>
+        <string/>
        </property>
       </widget>
       <widget class="QLabel" name="bilgi_sinif">
@@ -947,7 +947,7 @@ color: rgb(255, 255, 255);</string>
 color: rgb(255, 255, 255);</string>
        </property>
        <property name="text">
-        <string>12</string>
+        <string/>
        </property>
       </widget>
       <widget class="QLabel" name="bilgi_bolum">
@@ -964,7 +964,7 @@ color: rgb(255, 255, 255);</string>
 color: rgb(255, 255, 255);</string>
        </property>
        <property name="text">
-        <string>Makine Mühendisliği</string>
+        <string/>
        </property>
       </widget>
       <widget class="QPushButton" name="cikis_btn">

@@ -348,26 +348,31 @@ class Ui_MainWindow(object):
         self.bilgi_kullanci.setGeometry(QtCore.QRect(720, 120, 211, 41))
         self.bilgi_kullanci.setStyleSheet("font: 12pt \"Yu Gothic UI\";\n"
 "color: rgb(255, 255, 255);")
+        self.bilgi_kullanci.setText("")
         self.bilgi_kullanci.setObjectName("bilgi_kullanci")
         self.bilgi_dogum_gunu = QtWidgets.QLabel(self.bilgi_frame)
         self.bilgi_dogum_gunu.setGeometry(QtCore.QRect(720, 160, 211, 41))
         self.bilgi_dogum_gunu.setStyleSheet("font: 12pt \"Yu Gothic UI\";\n"
 "color: rgb(255, 255, 255);")
+        self.bilgi_dogum_gunu.setText("")
         self.bilgi_dogum_gunu.setObjectName("bilgi_dogum_gunu")
         self.bilgi_cinsiyet = QtWidgets.QLabel(self.bilgi_frame)
         self.bilgi_cinsiyet.setGeometry(QtCore.QRect(720, 200, 211, 41))
         self.bilgi_cinsiyet.setStyleSheet("font: 12pt \"Yu Gothic UI\";\n"
 "color: rgb(255, 255, 255);")
+        self.bilgi_cinsiyet.setText("")
         self.bilgi_cinsiyet.setObjectName("bilgi_cinsiyet")
         self.bilgi_sinif = QtWidgets.QLabel(self.bilgi_frame)
         self.bilgi_sinif.setGeometry(QtCore.QRect(720, 240, 211, 41))
         self.bilgi_sinif.setStyleSheet("font: 12pt \"Yu Gothic UI\";\n"
 "color: rgb(255, 255, 255);")
+        self.bilgi_sinif.setText("")
         self.bilgi_sinif.setObjectName("bilgi_sinif")
         self.bilgi_bolum = QtWidgets.QLabel(self.bilgi_frame)
         self.bilgi_bolum.setGeometry(QtCore.QRect(720, 280, 211, 41))
         self.bilgi_bolum.setStyleSheet("font: 12pt \"Yu Gothic UI\";\n"
 "color: rgb(255, 255, 255);")
+        self.bilgi_bolum.setText("")
         self.bilgi_bolum.setObjectName("bilgi_bolum")
         self.cikis_btn = QtWidgets.QPushButton(self.bilgi_frame)
         self.cikis_btn.setGeometry(QtCore.QRect(790, 470, 121, 41))
@@ -406,7 +411,7 @@ class Ui_MainWindow(object):
         self.bilgi_label.setText(_translate("MainWindow", "Hoş geldiniz, devam etmek için lütfen giriş yapın."))
         self.label_4.setText(_translate("MainWindow", "Kullancı adı"))
         self.label_5.setText(_translate("MainWindow", "Şifre"))
-        self.kaydet.setText(_translate("MainWindow", "Kayı Ol"))
+        self.kaydet.setText(_translate("MainWindow", "Kayıt Ol"))
         self.label_3.setText(_translate("MainWindow", "KAYIT OL"))
         self.label_6.setText(_translate("MainWindow", "Adı"))
         self.label_7.setText(_translate("MainWindow", "Soyad"))
@@ -425,11 +430,6 @@ class Ui_MainWindow(object):
         self.label_18.setText(_translate("MainWindow", "Sınıf:"))
         self.label_19.setText(_translate("MainWindow", "Bölüm:"))
         self.label_20.setText(_translate("MainWindow", "Kullancı adı:"))
-        self.bilgi_kullanci.setText(_translate("MainWindow", "Kaleb236"))
-        self.bilgi_dogum_gunu.setText(_translate("MainWindow", "23.06.2000"))
-        self.bilgi_cinsiyet.setText(_translate("MainWindow", "Erkek"))
-        self.bilgi_sinif.setText(_translate("MainWindow", "12"))
-        self.bilgi_bolum.setText(_translate("MainWindow", "Makine Mühendisliği"))
         self.cikis_btn.setText(_translate("MainWindow", "Çikiş Yap"))
 
 
